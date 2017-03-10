@@ -1,0 +1,306 @@
+*{
+	padding: 0;
+	margin: 0 auto;
+	color: #000;
+	list-style: none;
+	font-family: Arial;
+
+}
+
+#redes{
+	width: 38px;
+	height: 38px;
+	background-color: #FFFFFF;
+}
+
+
+#topo{
+	width: 100%;
+	height: auto;
+}
+
+#menu{
+	width: 50%;
+	height: 60px;
+	
+}
+
+#banner{
+	width: 100%;
+	height: auto;
+	
+	
+
+}
+
+#conteudo{
+	width: 90%;
+	height: 400px;
+
+	text-align: justify;
+
+}
+
+
+#rodape{
+	width: 100%;
+	height: 100px;
+	clear: both;
+	
+
+}
+
+.redes{
+	float: right;
+	margin-right: 2%;
+	opacity: 0.7;
+}
+
+
+.redes:hover{
+	opacity: 1.0;
+}
+
+
+#texto_redes{
+	float: right;
+	margin-top: 1%;
+	margin-right: 2%;
+	font-weight: bold;
+	
+
+}
+
+#logo{
+	margin: 0 30%;
+
+}
+
+ul li{
+	float: left;
+	font-size: 1.0em;
+	position: relative;
+	width: 25%;
+	opacity: 0.7;
+	
+	
+
+}
+
+li ul{
+	display: none;
+	position: absolute;
+	left: 6%;
+	width: 100%;
+	background: #fff;
+  
+	
+}
+
+
+
+li:hover ul{
+	display: block;
+	
+}
+
+ul li:hover{
+	
+	opacity: 1;
+	transform:scale(1.0) translate(0, -5px);
+	transition-duration: 1s;
+	list-style: none;
+    z-index: 1000;
+	
+}
+
+
+ul{
+	margin: 0 auto;
+
+}
+
+#rede_baixo{
+	float: right;
+	text-align: center;
+	width: 30%;
+
+	
+	
+	
+
+}
+
+.rede_baixo{
+	float: right;
+	margin-right: 2%;
+	margin-top: 5%;
+	
+	
+
+}
+
+
+#texto_baixo{
+	float: left;
+	text-align: center;
+	width: 30%;
+
+	
+
+}
+
+#copy{
+	margin:0 auto;
+	width: 20%;
+	text-align: center;
+	position: absolute;
+	bottom: -90%;
+	left: 40%;
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+
+
+/* pagina sobre */
+
+#conteudo_sobre{
+		width: 90%;
+		height: auto;
+		margin: 0 auto 5%;
+		
+	
+
+}
+		
+#texto_sobre{
+			width: 50%;
+			text-align: justify;
+			margin: 8% auto 0;
+			font-family: arial;
+			font-size: 1.0em;
+			
+}
+		
+h1{
+			font-family: arial;
+			font-size: 3.0em;
+			margin-top: 2%;
+			text-align: left;
+
+			
+}
+
+/* cosméticos */
+
+.prod{
+				width: 15%;
+				float: left;
+				margin: 2% auto;
+				
+}
+			
+
+			
+.img_cos{
+		width: 100%;
+}
+			
+.texto_img{
+		text-align: center; 
+		color: #000;
+		font-size: 1.2em;
+		font-weight: 600;
+				
+}
+			
+
+			
+			
+.img_cos:hover{
+			transform: scale(1.5);
+			transition: 0.8s;
+
+}
+			
+			#conteudo_cosm{
+					width: 90%;
+					height: 800px;
+					margin: 2% auto 15%;
+					text-align: justify;
+				
+				
+			}
+			
+			
+/* contato */
+
+#tabela_form{
+			margin: 2% auto;
+				
+}
+			
+#form{
+				margin: 10% auto;
+				font-size: 1.2em;
+				border: 1px solid #000;
+				border-top-left-radius: 60px;
+				border-bottom-right-radius: 60px;
+				box-shadow: -4px -5px 5px #000;
+				width: 50%;
+				
+				
+}
+			
+			#conteudo_contato{
+					
+					width: 90%;
+					height: 800px;
+					margin: 2% auto;
+				
+			}
+			
+			input{
+				padding: 1% 0;
+				text-transform: uppercase;
+				
+			}
+			textarea{
+				text-transform: uppercase;
+			}
+			
+			.btn{
+				border-radius: 60px;
+				padding: 5%;
+				margin-top: 2%;
+				font-weight: bold;
+				width: 80%;
+	
+
+}
+
+a:link{
+	text-decoration: none;
+}
+
+a:active{
+	text-decoration: none;
+}
+
+a:visited{
+	text-decoration: none;
+}
+
+
+
